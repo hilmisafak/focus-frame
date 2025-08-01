@@ -1,0 +1,126 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: #2e2f42;
+  --grey: #2e2f42;
+  --white: #ffffff;
+  --dairy: #fcfcfc;
+  --font-h1: 56px;
+  --font-h2: 36px;
+  --font-h3: 20px;
+  --font-body: 16px;
+  --font-small: 12px;
+  --line-height-body: 1.5;
+  --line-height-h1: 1.07;
+  --letter-spacing-body: 0.32px;
+  --letter-spacing-h1: 1.12px;
+  --line-height-h2: 1.11;
+  --letter-spacing-h2: 0.72px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.reviews {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  background-color: black;
+  color: var(--white);
+}
+
+.reviews-container {
+  width: 100%;
+  max-width: 335px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.review-card {
+  display: block;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 20px;
+  width: 100%;
+  max-width: 335px;
+  height: 244px;
+}
+
+.reviewer-photo {
+  color: var(--navy-blue);
+  border-radius: 50%;
+}
+
+.reviews-title {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+  color: white;
+  margin: 0;
+}
+
+.reviewer-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer-name {
+  font-size: var(--font-h3);
+  line-height: 1.2;
+}
+
+.reviewer-role {
+  font-size: var(--font-small);
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 4px;
+}
+
+.reviews-list li:nth-child(2) {
+  display: none;
+}
+
+.review-text {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.review-stars {
+  display: flex;
+  gap: 4px;
+  width: 96px;
+  height: 16px;
+  align-items: center;
+}
+
+.review-stars svg.icon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  display: block;
+}
