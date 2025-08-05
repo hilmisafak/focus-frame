@@ -151,6 +151,10 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+img {
+  display: block;
+  max-width: 100%;
+}
 @media (min-width: 768px) {
   .container {
     width: 100%;
@@ -204,11 +208,7 @@ body {
   width: 180px;
   height: 180px;
 }
-@media (min-width: 768px) and (min-resolution: 192dpi) {
-  .img_card {
-    image-resolution: url(../images/boy_1_2x.jpg);
-  }
-}
+
 @media (min-width: 768px) {
   .our_mentors_images {
     display: flex;
