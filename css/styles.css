@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+:root {--white: #ffffff;
+--black:#121212; --brown: #BEA69E; --font-family:"DM Sans", sans-serif; }
+
+body {
+  font-optical-sizing: auto;
+  font-style: normal;
+  background: var(--black);
+  display: flex;
+  
+}
+
+.header {
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 28px;
+line-height: 114%;
+letter-spacing: -0.04em;
+color: var(--white);
+margin-bottom: 12px; }
+
+.header>span {
+  color: var(--brown)
+}
+
+.form-info {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 129%;
+letter-spacing: -0.02em;
+color: var(--white);
+width: 295px;
+margin-bottom: 33px;
+}
+
+form p {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 12px;
+line-height: 133%;
+color: rgba(255, 255, 255, 0.5);
+width: 335px;
+}
+
+form p span {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+
+button
+{
+  border-radius: 12px;
+padding: 14px 127px;
+width: 335px;
+height: 48px;
+background: var(--white);
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 16px;
+line-height: 125%;
+text-transform: uppercase;
+color: var(--black);
+margin-top: 32px;
+margin-bottom: 12px;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+input, textarea {
+  font-family: var(--font-family);
+  background-color: inherit;
+}
+input {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  width: 335px;
+  height: 46px;
+}
+
+textarea {resize: none;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+border-radius: 12px;
+width: 335px;
+height: 112px;
+  }
+.container-2 {display:none;}

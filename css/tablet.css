@@ -1,0 +1,24 @@
+@media (min-width: 335px) {
+  .header {
+    font-size: 32px;
+  }
+
+  .form-info {
+    width: 480px;
+  }
+
+  form p {
+    width: 480px;
+  }
+
+  button {
+    width: 480px;
+  }
+
+  input,
+  textarea {
+    width: 480px;
+  }
+}
+
+.container-2 {display:none;}

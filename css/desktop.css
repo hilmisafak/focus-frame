@@ -1,0 +1,61 @@
+
+@media (min-width: 767px) {
+  .header {
+    font-size: 32px;
+  }
+
+  .form-info {
+    width: 480px;
+  }
+
+  form p {
+    width: 480px;
+  }
+
+  button {
+    width: 480px;
+  }
+
+  input,
+  textarea {
+    width: 480px;
+  }
+  .container-2 {display:flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  }
+
+  .photo-1
+  {width: 163px;
+height: 154px;
+box-shadow: -36px 18px 25px 0 rgba(0, 0, 0, 0.26);
+;}
+
+.photo-2
+{
+    width: 254px;
+height: 313px;
+
+}
+  .photo-1-wrapper {
+    border-radius: 1000px;
+width: 190px;
+height: 288px;
+    background: var(--brown);
+    padding: 63px 18px 62px 18px;
+    margin-top: 252px;
+    margin-left: 200px;
+
+  }
+
+  .photo-2-wrapper {
+    border-radius: 1000px;
+width: 350px;
+height: 540px;
+background: #1d1d1d;
+padding: 139px 48px 80px 48px;
+  }
+
+}
