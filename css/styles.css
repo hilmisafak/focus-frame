@@ -1288,6 +1288,11 @@ Footer
     align-items: center;
     margin-top: 16px;
   }
+
+  .footer-policy p,
+  .footer-reserved p {
+    font-size: 14px;
+  }
 }
 
 /* Laptop */
