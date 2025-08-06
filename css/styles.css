@@ -142,6 +142,197 @@ body {
   padding-left: 20px;
 }
 
+@media (min-width: 320px) and (max-width: 375px) {
+  .about .photography {
+   display: block;
+   max-width: 100%;
+}
+}
+
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .about .photography {
+    width: 335px;
+    height: 209px;
+    border-radius: 1000px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+
+  .about h1, 
+  .about h1 span {
+    width: 840px;
+    height: 50px;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -0.02em;
+  }
+
+  .about-container {
+    padding-left: 32px;
+    padding-right: 32px;
+    gap: 50px;
+  }
+
+  .about h2, 
+  .about h2 span {
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: -0.04em;
+  }
+
+  .about .photography {
+    width: 488px;
+    height: 260px;
+    display: flex;
+  }
+
+  .about .first-p, .second-p {
+    font-size: 16px;
+    line-height: 20px;
+    gap: 40px;
+   letter-spacing: -0.02em;
+
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+  .about {
+    padding-left: 64px;
+  }
+
+  .about h1 {
+    font-size: 59px;
+    line-height: 64px;
+    letter-spacing: -0.02em;
+    width: 100%;
+  }
+
+  .about h1 span {
+    font-size: 59px;
+    line-height: 64px;
+    letter-spacing: -0.02em;
+
+  }
+
+  .about-container {
+    padding-left: 64px;
+    padding-right: 64px;
+    gap: 50px;
+
+  }
+
+  .about-container-item {
+    display: flex;
+    flex-direction: row;
+
+}
+
+  .about .first-p {
+    width: 268px;
+    height: 260px;
+    font-size: 16px;
+}
+
+  .about .second-p {
+    width: 264px;
+    height: 215px;
+    font-size: 16px;
+  }
+
+
+  .about h2 {
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.04em;
+  }
+
+  .about .photography {
+    width: 488px;
+    height: 260px;
+    border-radius: 1000px;
+  }
+
+  .about .first-p, .second-p {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+  }
+}
+
+@media (min-width: 1440px) {
+  .about {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .about h1 {
+    font-size: 59px;
+    line-height: 64px;
+    letter-spacing: -0.02em;
+  }
+
+  .about h1 span {
+   font-size: 59px;
+   line-height: 64px;
+   display: flex;
+   letter-spacing: -0.02em;
+  }
+
+  .about-container {
+    display: flex;
+    gap: 50px;
+  }
+
+ .about-container-item {
+    display: flex;
+    gap: 50px;
+    padding-left: 80px;
+    padding-right: 100px;
+}
+
+  .about h2 {
+    font-size: 48px;
+    line-height: 54px;
+    padding-left: 80px;
+    letter-spacing: 0.04em;
+
+  }
+
+  .about h2 span {
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: 0.04em;
+  }
+
+  .about .photography {
+    width: 560px;
+    height: 240px;
+
+  }
+
+  .about .first-p {
+    width: 314px;
+    height: 220px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+  
+    }
+
+  .about .second-p {
+    width: 276px;
+    height: 215px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+  }
+
+
+
 .ourmentors {
   background-color: #121212;
 }
