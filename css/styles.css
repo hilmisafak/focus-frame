@@ -263,8 +263,8 @@ body {
 
 @media (min-width: 1440px) {
   .about {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
     margin: 0;
     padding: 0;
   }
