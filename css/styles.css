@@ -436,7 +436,7 @@ img {
 @media (min-width: 1440px) {
   .our_mentors_images {
     display: flex;
-    gap: 90px;
+    gap: 50px;
   }
 }
 
