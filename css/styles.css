@@ -446,7 +446,10 @@ img {
 @media (min-width: 1440px) {
   .our_mentors_images {
     display: flex;
-    gap: 50px;
+    gap: 37px;
+    margin-left: 90px;
+    width: 1034px;
+    height: 250px;
   }
 }
 
