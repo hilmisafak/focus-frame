@@ -340,14 +340,17 @@ Our Mentors
 .ourmentors {
   background-color: #121212;
 }
+
 .our_container {
   max-width: 375px;
   height: 1152px;
 }
+
 img {
   display: block;
   max-width: 100%;
 }
+
 @media (min-width: 768px) {
   .our_container {
     width: 704px;
@@ -367,22 +370,26 @@ img {
     height: 354px;
   }
 }
+
 .our_mentors {
   width: 335px;
   height: 100%;
 }
+
 @media (min-width: 768px) {
   .our_mentors {
     width: 704px;
     height: 100%;
   }
 }
+
 @media (min-width: 1280px) {
   .our_mentors {
     width: 1280px;
     height: 100%;
   }
 }
+
 .header_mentors {
   color: #bea69e;
 }
@@ -429,23 +436,13 @@ img {
     width: 1034px;
     height: 250px;
   }
-}
-@media (min-width: 1440px) {
-  .our_mentors_images {
-    display: flex;
-    margin-left: 0;
-    gap: 70px;
-    width: 1240px;
+  .our_header {
+    margin-left: 0px;
+  }
+  .mentor_img {
+    list-style-type: none;
   }
 }
-
-.our_header {
-  margin-left: 0px;
-}
-.mentor_img {
-  list-style-type: none;
-}
-
 @media (min-width: 1440px) {
   .our_mentors_images {
     display: flex;
@@ -804,6 +801,7 @@ Our Courses
   flex-direction: column;
   text-align: left;
   max-width: 100%;
+  margin-bottom: 40px;
 }
 
 .title-description h2 {
@@ -811,6 +809,7 @@ Our Courses
   font-size: 28px;
   line-height: 32px;
   letter-spacing: -0.04em;
+  margin-bottom: 20px;
 }
 
 .title-description p {
@@ -904,6 +903,7 @@ Our Courses
   letter-spacing: 0;
   max-width: 240px;
   margin-bottom: 50%;
+  margin-top: 40px;
 }
 
 .card-text {
@@ -916,6 +916,7 @@ Our Courses
   height: 54px;
   font-weight: 400;
   letter-spacing: -0.02em;
+  margin-top: 30px;
 }
 
 @media (min-width: 768px) {
@@ -926,21 +927,24 @@ Our Courses
     gap: 58px;
     margin-bottom: 12%;
     flex-direction: row;
+    margin-top: 15%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
   }
 
   .title-description h2 {
     font-size: 48px;
     line-height: 54px;
     width: 265px;
-    height: 54px;
-    margin-top: 2%;
+    flex: 1;
   }
 
   .title-description p {
     font-size: 16px;
     line-height: 20px;
     width: 381px;
-    height: 80px;
+    flex: 2;
   }
 
   .secondary-color {
@@ -1016,7 +1020,6 @@ Our Courses
     line-height: 54px;
     width: 265px;
     height: 54px;
-    margin-top: 2%;
   }
 
   .title-description p {
@@ -1031,6 +1034,7 @@ Our Courses
   }
 
   .cards ol {
+    display: flex;
     flex-direction: row;
     justify-content: center;
   }
@@ -1041,7 +1045,7 @@ Our Courses
     border-radius: 12px;
     padding: 10%;
     position: relative;
-    max-width: 400px;
+    max-width: 392px;
     height: 452px;
     display: flex;
     flex-direction: column;
