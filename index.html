@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header>
+      <!-- SVG Sembolleri (sayfanın başında tanımlanmalı) -->
+      <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+        <symbol id="icon-Nav" viewBox="0 0 46 32">
+          <path
+            fill="none"
+            stroke="currentColor"
+            stroke-linejoin="miter"
+            stroke-linecap="round"
+            stroke-width="4"
+            d="M9.671 5.074h40.329"
+          />
+          <path
+            fill="none"
+            stroke="currentColor"
+            stroke-linejoin="miter"
+            stroke-linecap="round"
+            stroke-width="4"
+            d="M8.671 24.468h40.329"
+          />
+          <path
+            fill="none"
+            stroke="currentColor"
+            stroke-linejoin="miter"
+            stroke-linecap="round"
+            stroke-width="4"
+            d="M19.602 14.771h30.398"
+          />
+        </symbol>
+      </svg>
+
+      <!-- HEADER -->
+      <header class="container wrap">
+        <div class="header" id="header_section">
+          <nav class="nav">
+            <!-- Logo -->
+            <a class="logo" href="#top">
+              <img
+                src="./img/Focus.Frame.png"
+                alt="Focus.Frame Logo"
+                decoding="async"
+              />
+            </a>
+
+            <!-- Menü bağlantıları -->
+            <ul class="nav-links">
+              <li><a href="#about_us">About us</a></li>
+              <li><a href="#our_courses">Our courses</a></li>
+              <li><a href="#our_mentors">Our mentors</a></li>
+              <li><a href="#reviews">Reviews</a></li>
+              <li><a href="#footerr">Contacts</a></li>
+            </ul>
+
+            <!-- Sağ taraf: ikonlar ve buton -->
+            <div class="nav-right">
+              <a href="#" class="camera-icon-link" aria-label="Go to gallery">
+                <svg class="icon icon-camera">
+                  <use href="./img/symbol-defs.svg#icon-camera"></use>
+                </svg>
+              </a>
+              <a
+                class="hamburger-menu"
+                href="#off-canvas-menu"
+                aria-label="Open menu"
+              >
+                <svg class="icon icon-Nav"><use href="#icon-Nav"></use></svg>
+              </a>
+              <button
+                type="button"
+                onclick="location.href='#sign_up'"
+                class="main-button"
+              >
+                SIGN UP
+              </button>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <!-- OFF-CANVAS MENU -->
+      <aside id="off-canvas-menu" class="off-canvas-menu">
+        <a href="#top" class="close-icon" aria-label="Close menu">&times;</a>
+        <ul>
+          <li><a href="#about_us">About us</a></li>
+          <li><a href="#our_courses">Our courses</a></li>
+          <li><a href="#our_mentors">Our mentors</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#footerr">Contacts</a></li>
+        </ul>
+        <img
+          src="./img/menu-img.jpg"
+          alt="Decorative Camera"
+          class="off-canvas-image"
+          decoding="async"
+        />
+      </aside>
+    </header>
+    <main>
+      <!-- Sayfa içeriklerini saran ana container -->
+      <div class="container wrap">
+        <!-- Ana tanıtım (hero) bölümü -->
+        <section class="hero-section" id="hero">
+          <!-- Başlık -->
+          <h1 class="title">
+            Discover the magic of
+            <span>photography</span> in our school
+          </h1>
+
+          <!-- Alt başlık / açıklayıcı metin -->
+          <p class="title-1">
+            Our photography school offers an unforgettable journey, where you
+            can learn the basics of composition, master technical skills,
+            translate your unique ideas.
+          </p>
+
+          <!-- Hero görsel kutusu -->
+          <div class="rectangle">
+            <img
+              src="./img/hero-img.png"
+              alt="Photographer holding a camera in studio"
+            />
+          </div>
+
+          <!-- Öğrenci ve yorum bölümlerini saran yapı -->
+          <div class="content-wrapper">
+            <!-- Mutlu öğrenciler bölümü -->
+            <div class="happy-students-section">
+              <!-- Öğrenci profil fotoğrafları -->
+              <div class="student-profiles">
+                <img
+                  src="./img/girl 1.png"
+                  alt="Smiling student girl"
+                  class="profile-img first-img"
+                />
+                <img
+                  src="./img/boy.png"
+                  alt="Happy student boy"
+                  class="profile-img second-img"
+                />
+                <img
+                  src="./img/girl.png"
+                  alt="Confident student girl"
+                  class="profile-img third-img"
+                />
+              </div>
+
+              <!-- Öğrenci yorumlarına giden bağlantı -->
+              <a href="#reviews" class="students-text-and-arrow">
+                <p class="students-title">Our happy students</p>
+                <span class="arrow-icon">&#8594;</span>
+                <!-- Sağ ok simgesi -->
+              </a>
+            </div>
+
+            <!-- Değerlendirme (reviews) bölümü -->
+            <div class="reviews-section">
+              <!-- Yıldız ikon kutusu -->
+              <div class="star-icon-container">
+                <!-- icon-star artık sembolden çağrılıyor -->
+                <svg class="icon-star">
+                  <use href="./img/symbol-defs.svg#icon-star"></use>
+                </svg>
+              </div>
+
+              <!-- Yorum bilgisi -->
+              <div class="reviews-text">
+                <p class="reviews-label">Reviews</p>
+                <p class="reviews-count">+1500</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
